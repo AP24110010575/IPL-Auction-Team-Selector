@@ -74,7 +74,6 @@ def select_team(players, budget, max_players=11, max_foreign=4):
 
             if is_foreign(p):
                 foreign_count += 1
-
             cnt -= 1
 
     # -------- DP: fill remaining slots optimally --------
